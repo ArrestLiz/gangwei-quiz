@@ -1,0 +1,24 @@
+{
+  "sessions": [
+    {
+      "id": "mt_1783325044946",
+      "title": "第 1 期中期测试",
+      "count": 50,
+      "timeLimit": 60,
+      "types": [
+        "single",
+        "multi",
+        "judge"
+      ],
+      "diffs": [
+        "easy",
+        "medium",
+        "hard"
+      ],
+      "startTime": 1783299600000,
+      "endTime": 1783947600000,
+      "createdAt": 1783325044946
+    }
+  ],
+  "updatedAt": 1783325045351
+}
