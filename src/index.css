@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
+body {
+  margin: 0;
+  background: #f5f6fa;
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+/* 允许题干和解析选择文字 */
+.selectable {
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+/* 自定义滚动条 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #c1c5d0;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* 选项点击动效 */
+.option-btn {
+  transition: all 0.15s ease;
+}
+.option-btn:active {
+  transform: scale(0.98);
+}
+
+/* 淡入动画 */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.fade-in {
+  animation: fadeIn 0.3s ease;
+}
