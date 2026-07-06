@@ -1,0 +1,36 @@
+{
+  "sessionId": "mt_1783325044946",
+  "sessionInfo": {
+    "id": "mt_1783325044946",
+    "title": "第 1 期中期测试",
+    "count": 50,
+    "timeLimit": 60,
+    "types": [
+      "single",
+      "multi",
+      "judge"
+    ],
+    "diffs": [
+      "easy",
+      "medium",
+      "hard"
+    ],
+    "startTime": 1783299600000,
+    "endTime": 1783947600000,
+    "createdAt": 1783325044946
+  },
+  "records": [
+    {
+      "name": "测试用户01",
+      "score": 0,
+      "totalScore": 61,
+      "correctCount": 0,
+      "totalCount": 50,
+      "accuracy": 0,
+      "duration": 1,
+      "createdAt": 1783325090334,
+      "uploadedAt": 1783325091497
+    }
+  ],
+  "updatedAt": 1783325091497
+}
