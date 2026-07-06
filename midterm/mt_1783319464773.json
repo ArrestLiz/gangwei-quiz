@@ -30,7 +30,18 @@
       "duration": 2,
       "createdAt": 1783321962194,
       "uploadedAt": 1783322174967
+    },
+    {
+      "name": "用户名1",
+      "score": 0,
+      "totalScore": 61,
+      "correctCount": 0,
+      "totalCount": 50,
+      "accuracy": 0,
+      "duration": 2,
+      "createdAt": 1783323439463,
+      "uploadedAt": 1783323527284
     }
   ],
-  "updatedAt": 1783322174967
+  "updatedAt": 1783323527284
 }
